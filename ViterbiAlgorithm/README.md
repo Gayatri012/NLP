@@ -1,4 +1,4 @@
-  # Viterbi Algorithm implmentation
+  # Viterbi Algorithm implementation
   
 This program implments Viterbi algorithm without using any high level packages that already have the algorithm to find the most probable underlying observation.
 
