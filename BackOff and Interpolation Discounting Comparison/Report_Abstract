@@ -1,0 +1,6 @@
+
+Smoothing and discounting are two important factors for predicting N gram probabilities. Smoothing assigns probability mass to words that were not observed by the training corpus but might be observed in future, because the chance of a word to be missed in training corpus is not equivalent to that word not appearing at all in any text. Discounting is responsible for ‘intelligently’ distributing the probability mass of higher frequency words in corpus to unseen words. This project aims to compare the two discounting methods – Interpolation and Katz Back-off using word tokens from Brown corpus.
+
+Simple Interpolation, Weighted Interpolation and Katz Back Off discounting methods are implemented using Python 3. A comparison between all the three models is done based on perplexity of the predicted probabilities of test data and the time taken to devise each of the models. Finally, these N gram models are used to generate text in order to visualize the results in a more comprehensive way using the technique of Shannon(1951) with a modification to use maximum estimated probability for the next N gram based on the previous N-1 gram, instead of random generation of text.
+
+If anyone wants to know more about this project, feel free to connect with me @ https://bit.ly/2E2KbV3 and we can have a chat.
